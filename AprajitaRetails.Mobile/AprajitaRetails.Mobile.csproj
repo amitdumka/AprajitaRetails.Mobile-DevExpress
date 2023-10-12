@@ -49,5 +49,14 @@
 		<PackageReference Include="DevExpress.Maui.Scheduler" Version="23.1.5" />
 		<PackageReference Include="DevExpress.Maui.Editors" Version="23.1.5" />
 		<TrimmableAssembly Include="DevExpress.Data.v23.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="TestSpace\TestPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="TestSpace\TestView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>	
 </Project>
