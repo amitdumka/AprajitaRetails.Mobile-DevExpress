@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Web;
 
-namespace AprajitaRetails.Mobile.Services
+namespace AprajitaRetails.Mobile.Services.Obsolute
 {
     public class NavigationService : INavigationService
     {
@@ -32,7 +32,7 @@ namespace AprajitaRetails.Mobile.Services
         async Task InternalNavigateToAsync(Type viewModelType, object parameter, bool isAbsoluteRoute = false)
         {
             var viewName = viewModelType.FullName.Replace("ViewModels", "Views").Replace("ViewModel", "Page");
-            string absolutePrefix = isAbsoluteRoute ? "///" : String.Empty;
+            string absolutePrefix = isAbsoluteRoute ? "///" : string.Empty;
             if (parameter != null)
             {
                 await Shell.Current.GoToAsync(

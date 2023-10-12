@@ -1,4 +1,4 @@
-﻿using AprajitaRetails.Mobile.Services;
+﻿using AprajitaRetails.Mobile.Services.Obsolute;
 using AprajitaRetails.Mobile.Views;
 using Application = Microsoft.Maui.Controls.Application;
 

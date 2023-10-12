@@ -1,6 +1,6 @@
 ﻿using AprajitaRetails.Mobile.ViewModels;
 
-namespace AprajitaRetails.Mobile.Services
+namespace AprajitaRetails.Mobile.Services.Obsolute
 {
     public interface INavigationService
     {

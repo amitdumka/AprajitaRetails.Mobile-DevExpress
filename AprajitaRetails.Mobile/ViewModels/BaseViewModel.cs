@@ -1,5 +1,5 @@
 ﻿using AprajitaRetails.Mobile.Models;
-using AprajitaRetails.Mobile.Services;
+using AprajitaRetails.Mobile.Services.Obsolute;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 

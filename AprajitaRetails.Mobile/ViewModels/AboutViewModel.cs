@@ -8,7 +8,7 @@ namespace AprajitaRetails.Mobile.ViewModels
         public AboutViewModel()
         {
             Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://www.devexpress.com/maui/"));
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://www.aprajitaretails.store:7111/"));
         }
 
         public ICommand OpenWebCommand { get; }

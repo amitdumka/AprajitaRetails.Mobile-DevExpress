@@ -1,4 +1,4 @@
-﻿namespace AprajitaRetails.Mobile.ViewModels
+﻿namespace AprajitaRetails.Mobile.ViewModels.Obsolute
 {
     public class PopupViewModel : BaseViewModel
     {

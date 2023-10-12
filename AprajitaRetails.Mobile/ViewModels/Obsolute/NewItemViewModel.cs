@@ -1,7 +1,7 @@
 ﻿using AprajitaRetails.Mobile.Models;
 using DevExpress.Maui.DataForm;
 
-namespace AprajitaRetails.Mobile.ViewModels
+namespace AprajitaRetails.Mobile.ViewModels.Obsolute
 {
     public class NewItemViewModel : BaseViewModel
     {
@@ -23,14 +23,14 @@ namespace AprajitaRetails.Mobile.ViewModels
 
         public string Text
         {
-            get => this.text;
-            set => SetProperty(ref this.text, value);
+            get => text;
+            set => SetProperty(ref text, value);
         }
 
         public string Description
         {
-            get => this.description;
-            set => SetProperty(ref this.description, value);
+            get => description;
+            set => SetProperty(ref description, value);
         }
 
 
@@ -43,8 +43,8 @@ namespace AprajitaRetails.Mobile.ViewModels
 
         bool ValidateSave()
         {
-            return !String.IsNullOrWhiteSpace(this.text)
-                && !String.IsNullOrWhiteSpace(this.description);
+            return !string.IsNullOrWhiteSpace(text)
+                && !string.IsNullOrWhiteSpace(description);
         }
 
         async void OnCancel()

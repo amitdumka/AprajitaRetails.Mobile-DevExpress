@@ -1,7 +1,7 @@
 ﻿using AprajitaRetails.Mobile.Models;
 using System.Collections.ObjectModel;
 
-namespace AprajitaRetails.Mobile.ViewModels
+namespace AprajitaRetails.Mobile.ViewModels.Obsolute
 {
     public class DataGridViewModel : BaseViewModel
     {

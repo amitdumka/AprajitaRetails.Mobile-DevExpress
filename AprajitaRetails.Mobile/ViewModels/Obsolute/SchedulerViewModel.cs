@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace AprajitaRetails.Mobile.ViewModels
+namespace AprajitaRetails.Mobile.ViewModels.Obsolute
 {
     public class SchedulerViewModel : BaseViewModel
     {

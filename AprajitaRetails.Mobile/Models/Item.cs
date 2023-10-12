@@ -2,6 +2,7 @@
 
 namespace AprajitaRetails.Mobile.Models
 {
+    [Obsolete]
     public class Item
     {
         public string Id { get; set; }

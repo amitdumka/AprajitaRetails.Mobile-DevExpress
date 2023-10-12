@@ -1,7 +1,7 @@
 ﻿using AprajitaRetails.Mobile.Models;
 using System.Collections.ObjectModel;
 
-namespace AprajitaRetails.Mobile.ViewModels
+namespace AprajitaRetails.Mobile.ViewModels.Obsolute
 {
     public class ItemsViewModel : BaseViewModel
     {
@@ -28,10 +28,10 @@ namespace AprajitaRetails.Mobile.ViewModels
 
         public Item SelectedItem
         {
-            get => this._selectedItem;
+            get => _selectedItem;
             set
             {
-                SetProperty(ref this._selectedItem, value);
+                SetProperty(ref _selectedItem, value);
                 OnItemSelected(value);
             }
         }

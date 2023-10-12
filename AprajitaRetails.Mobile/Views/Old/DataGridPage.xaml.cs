@@ -1,4 +1,4 @@
-﻿using AprajitaRetails.Mobile.ViewModels;
+﻿using AprajitaRetails.Mobile.ViewModels.Obsolute;
 
 namespace AprajitaRetails.Mobile.Views
 {
